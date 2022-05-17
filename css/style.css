@@ -262,7 +262,7 @@ header nav ul li:last-of-type a {
 
 .quote {
     background-size: cover;
-    height: 68vh;
+    height: 65vh;
     display: flex;
     align-items: center;
     justify-content: end;
