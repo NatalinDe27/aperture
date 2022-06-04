@@ -12,12 +12,28 @@ $(document).ready(function(){
             },
 
             1000:{
-                items:3
+                items:5
             }
         }
     } );
-        $( function() {
-        $( "#accordion" ).accordion();
-    });
+
+    $( function() {
+        var icons = {
+            header: "ui-icon-circle-arrow-e",
+            activeHeader: "ui-icon-circle-arrow-s"
+        };
+        $( "#accordion" ).accordion({
+            icons: icons,
+            collapsible: true
+        });
+        $( "#toggle" ).button().on( "click", function() {
+            if ( $( "#accordion" ).accordion( "option", "icons" ) ) {
+                $( "#accordion" ).accordion( "option", "icons", null );
+            } else {
+                $( "#accordion" ).accordion( "option", "icons", icons );
+            }
+        });
+    } );
+
 });
 

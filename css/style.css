@@ -159,6 +159,7 @@ header nav ul li:last-of-type a {
     font-size: 40px;
     line-height: 42px;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .what_we_do p {
@@ -169,6 +170,7 @@ header nav ul li:last-of-type a {
     line-height: 30px;
     color: #C0C0C0;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .wrap {
@@ -254,6 +256,34 @@ header nav ul li:last-of-type a {
 .description a:hover:before {
     background-color: #fff;
 }
+
+.ui-accordion .ui-accordion-content {
+    padding: 0;
+}
+
+.ui-widget-content {
+    border: none;
+    background: none;
+    color: white;
+}
+.ui-state-active {
+    border: none;
+    background: #262c28;
+    font-weight: normal;
+    color: #ffffff;
+}
+.ui-state-default {
+    background: #262c28;
+    border: #262c28;
+    color: white;
+}
+
+#accordion h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 /*section 3*/
 
