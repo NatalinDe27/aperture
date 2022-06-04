@@ -171,10 +171,6 @@ header nav ul li:last-of-type a {
     margin-bottom: 30px;
 }
 
-.text-center {
-    text-align: center;
-}
-
 .wrap {
     flex-wrap: wrap;
 }
@@ -210,6 +206,7 @@ header nav ul li:last-of-type a {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 30px;
+
 }
 
 .description p {
@@ -314,7 +311,7 @@ header nav ul li:last-of-type a {
     background-color: black;
     padding-top: 113px;
     padding-bottom: 140px;
-    height: 40vh;
+    text-align: center;
 }
 
 .past_clients h2 {
@@ -336,21 +333,37 @@ header nav ul li:last-of-type a {
 }
 
 .past_clients img {
-    margin-right: 109px;
-}
-
-.past_clients img:last-of-type {
-    margin-right: 0;
-}
-
-.past_clients ul {
-    margin-left: 182px;
-    margin-right: 182px;
+    width: 100%;
+    display: block;
+    max-width: 128px;
 }
 
 .past_clients li {
     list-style: none;
 }
+.owl-dots .owl-dot  {
+    border-radius: 50%;
+    background-color: white!important;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+
+}
+button.owl-dot.active {
+    position: relative;
+    width: 16px;
+    height: 16px;
+}
+.owl-stage {
+    display: flex;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*section 7*/
 
 .star-fall {
@@ -413,6 +426,10 @@ footer ul {
 .container-footer {
     max-width: 1168px;
     margin: auto;
+    border-top: 2px;
+    border-color: white;
+    border-bottom: 2px;
+
 }
 
 footer .style_p {
@@ -500,3 +517,4 @@ footer a img:first-of-type{
 footer a img:last-of-type{
     margin-left: 26px;
 }
+
