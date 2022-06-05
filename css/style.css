@@ -196,6 +196,7 @@ header nav ul li:last-of-type a {
     position: absolute;
     bottom: 30px;
     left: 30px;
+
 }
 
 .description h4 {
@@ -266,24 +267,29 @@ header nav ul li:last-of-type a {
     background: none;
     color: white;
 }
-.ui-state-active {
-    border: none;
-    background: #262c28;
-    font-weight: normal;
-    color: #ffffff;
-}
+
 .ui-state-default {
-    background: #262c28;
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(38, 44, 40, 1) 46%, rgba(52, 68, 55, 1) 100%);
     border: #262c28;
     color: white;
 }
 
 #accordion h3 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
+
+.ui-state-active .ui-icon, .ui-button:active .ui-icon {
+    margin-right: 20px;
+    margin-top: 0;
+}
+
+.ui-icon {
+    margin-right: 20px;
+    margin-top: 0;
+}
 
 /*section 3*/
 
@@ -330,11 +336,13 @@ header nav ul li:last-of-type a {
 .sunset {
     background-image: url("../images/bg_sunset.jpg");
 }
- /*section 5*/
+
+/*section 5*/
 
 .leafs {
     background-image: url("../images/bg_monstera_Leafs.jpg");
 }
+
 /*section 6*/
 
 .past_clients {
@@ -371,19 +379,22 @@ header nav ul li:last-of-type a {
 .past_clients li {
     list-style: none;
 }
-.owl-dots .owl-dot  {
+
+.owl-dots .owl-dot {
     border-radius: 50%;
-    background-color: white!important;
+    background-color: white !important;
     width: 10px;
     height: 10px;
     margin: 10px;
 
 }
+
 button.owl-dot.active {
     position: relative;
     width: 16px;
     height: 16px;
 }
+
 .owl-stage {
     display: flex;
 }
@@ -399,6 +410,7 @@ button.owl-dot.active {
 .star-fall {
     background-image: url("../images/bg_star_fall.jpg");
 }
+
 /*section 8*/
 
 .need_help {
@@ -438,10 +450,12 @@ footer {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .flex {
-   display: flex;
-   justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
+
 .indent_img {
     margin-bottom: 20px;
 }
@@ -466,13 +480,15 @@ footer .style_p {
     font-size: 13px;
     padding-right: 270px;
 }
+
 footer .style_h4 {
     color: #C0C0C0;
     padding-bottom: 10px;
 }
+
 footer ul li {
     padding-bottom: 10px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -480,9 +496,11 @@ footer ul li {
     color: #FFFFFF;
 
 }
+
 .business_areas ul li {
     margin-right: 55px;
 }
+
 .business_areas li:last-of-type {
     font-size: 13px;
 }
@@ -490,12 +508,15 @@ footer ul li {
 .pages li:nth-child(1) {
     font-size: 13px;
 }
+
 .pages li:nth-child(2) {
     font-size: 13px;
 }
+
 .pages li:nth-child(4) {
     font-size: 13px;
 }
+
 .pages li:nth-child(6) {
     font-size: 13px;
     padding-bottom: 36px;
@@ -525,26 +546,31 @@ button {
     background-color: red;
 
 }
+
 .licensing {
     display: flex;
     padding-top: 56px;
 }
+
 .licensing p {
     padding-right: 5px;
     font-size: 14px;
 }
+
 .licensing span {
     font-size: 13px;
     padding-top: 1px;
 }
 
-footer a img{
+footer a img {
     margin-top: 56px;
 }
-footer a img:first-of-type{
+
+footer a img:first-of-type {
     margin-right: 20px;
 }
-footer a img:last-of-type{
+
+footer a img:last-of-type {
     margin-left: 26px;
 }
 
