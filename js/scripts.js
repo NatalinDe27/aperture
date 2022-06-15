@@ -12,7 +12,7 @@ $(document).ready(function(){
             },
 
             1000:{
-                items:3
+                items:5
             }
         }
     } );
